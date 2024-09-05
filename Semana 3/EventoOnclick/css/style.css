@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: rgb(221, 221, 221);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.seccion{
+    padding: 15px;
+    margin: 10px;
+    border: solid 1px #000000;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    gap: 5px;
+}
+
+.header p, .header h1, .header h3, .header em{
+    margin: 10px 0;
+}
+
+#buscar{
+    width: 500px;
+}
+
+#btnSesion{
+    color: #ffff;
+    background-color: rgb(37, 124, 255);
+    padding: 7px 15px;
+    box-shadow: 2px 2px 5px #00000077;
+    border: solid 2px #000000b4;
+}
+
+#btnAgregar{
+    color: #ffff;
+    background-color: rgb(28, 143, 43);
+    padding: 7px 30px;
+    box-shadow: 2px 2px 5px #00000077;
+    border: solid 2px #000000b4;
+}
+
+#btnAgregar:active, #btnSesion:active{
+    transform: translateY(2px);
+    box-shadow: 1px 1px 5px #00000077;
+}
+
+.btn-nav{
+    color: #000000;
+    background-color: #ffeeb7;
+    padding: 5px 5px;
+    box-shadow: 3px 3px 5px #00000077;
+    border-radius: 5px;
+    border: solid 1px #000000b4;
+    margin-top: 10px;
+}
+
+.btn-nav:active{
+    transform: translateY(2px);
+    box-shadow: 1px 1px 5px #00000077;
+}
+
+.btn-nav:hover{
+    background-color: #ffe89c;
+    cursor: pointer;
+}
+
+em{
+    color: rgba(0, 0, 0, 0.705);
+}
