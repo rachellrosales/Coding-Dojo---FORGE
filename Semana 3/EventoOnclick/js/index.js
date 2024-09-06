@@ -18,7 +18,7 @@ for(let i = 0; i < botonesMeGusta.length; i++){
         alert("Te gusta " + h1);
 
         let numero = this.querySelector(".megusta");
-        let contador = parseInt(numero.innerText);
+        let contador = Number(numero.innerText);
 
         contador ++;
         numero.innerText = contador;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">Network</div>
+    </header>
+
+    <main>
+        <section id="profile-section">
+            <div class="profile-imagen">
+                <img src="./img/perfil.PNG" alt="imagen-perfil">
+            </div>
+            <div class="nombre">
+                Adrien Desplatz
+            </div>
+        </section>
+        <aside id="feed-section">
+            <h1 id="titulo">Your Feed</h1>
+            <div class="container">
+                <div class="info">
+                    <h2 class="nombre">Linn O.</h2>
+                    <p>Acabo de configurar este nuevo bot de Discord, cuéntenme que opinan ustedes. <a href="#">link</a></p>
+                </div>
+                <div class="likes">
+                    <div class="contador-like"> <span id="numero1">0</span> like(s)</div>
+                    <button class="boton-like" id="btn-like1" onclick="aumentarLikes(this)">Like</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="info">
+                    <h2 class="nombre">Lina K.</h2>
+                    <p>Acabo de configurar este <a href="#">nuevo comic</a>, denle un vistazo.</p>
+                </div>
+                <div class="likes">
+                    <div class="contador-like"> <span id="numero2">0</span> like(s)</div>
+                    <button class="boton-like" id="btn-like2" onclick="aumentarLikes(this)">Like</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="info">
+                    <h2 class="nombre">Linn O</h2>
+                    <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
+                </div>
+                <div class="likes">
+                    <div class="contador-like"> <span id="numero3">0</span> like(s)</div>
+                    <button class="boton-like" id="btn-like3" onclick="aumentarLikes(this)">Like</button>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
